@@ -1,3 +1,6 @@
+body {
+  padding-top: 100px;
+}
 .navbar li a {
   height: 80px;
   padding: 30px;
@@ -6,7 +9,12 @@
   height: 80px;
   padding: 30px;
 }
+.title-section {
+  text-align: center;
+}
+.text p {
+  font-size: 17px;
+  text-align: center;
+  padding: 20px;
 
-body {
-  padding-top: 100px;
 }
