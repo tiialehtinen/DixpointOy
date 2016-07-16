@@ -27,4 +27,8 @@ body {
 }
 .row-footer p {
   font-size: 15px;
+  text-align:left;
+}
+.fa fa-envelope-o {
+  font-size: 50px;
 }
