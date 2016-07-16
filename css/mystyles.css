@@ -18,3 +18,13 @@ body {
   padding: 20px;
 
 }
+
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #E6EBED;
+  height: 150px;
+}
+.row-footer p {
+  font-size: 15px;
+}
