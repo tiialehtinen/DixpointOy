@@ -1,5 +1,6 @@
 body {
   padding-top: 100px;
+  padding-bottom: 160px;
 }
 .navbar li a {
   height: 80px;
@@ -23,12 +24,9 @@ body {
   margin: 0px auto;
   padding: 20px 0px;
   background-color: #E6EBED;
-  height: 150px;
+  height: 100px;
 }
 .row-footer p {
   font-size: 15px;
   text-align:left;
-}
-.fa fa-envelope-o {
-  font-size: 50px;
 }
