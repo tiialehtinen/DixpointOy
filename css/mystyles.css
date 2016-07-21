@@ -1,30 +1,34 @@
 body {
-  padding-top: 100px;
-  padding-bottom: 160px;
-
-}
+      align: center;
+      padding: 100px 0px 0px 0px;
+  }
 .navbar li a {
-  height: 80px;
-  padding: 30px;
+    height: 80px;
+    padding: 30px;
 }
 .navbar-brand {
-  height: 80px;
-  padding: 30px;
+    height: 80px;
+    padding: 30px;
 }
 .title-section {
-  text-align: center;
+    text-align: center;
 }
 .text p {
-  font-size: 17px;
-  text-align: center;
-  padding: 20px;
-
+    font-size: 17px;
+    text-align: center;
+    padding: 20px;
 }
-
-#footer {
-  background-color: #E6EBED;
+.row-footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #AfAfAf;
 }
-#footer p {
-  font-size: 15px;
-  text-align:left;
+#intro-background {
+  background-image: url("flowers.jpg");
+  position: fixed;
+  background-size: cover;
+  width: 100%;
+}
+#introduction{
+  z-index: 3;
 }
