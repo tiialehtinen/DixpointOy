@@ -15,11 +15,14 @@ body {
 }
 .title-section {
     text-align: center;
+    font-family: Palatino, Arial, Helvetica, sans-serif;
 }
 .text p {
     font-size: 17px;
+    font-family: Optima, Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 20px;
+    line-height: 25px;
 }
 .row-footer {
     margin: 0px auto;
