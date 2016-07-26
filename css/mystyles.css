@@ -42,7 +42,6 @@ body {
     background-size: cover;
     height: 400px;
     width: 100%;
-    /*background-position: 0% 0%;*/
 }
 #about-background {
     background-image: url(garden.jpg);
@@ -54,6 +53,7 @@ body {
 #about {
     height: 400px;
     padding: 30px 0px 30px 0px;
+    text-align: center;
 }
 #wrap {
     padding: 25px;
@@ -61,3 +61,43 @@ body {
 a {
   color: #0CA881;
 }
+.row-modal {
+  padding-top:30px;
+}
+.row-dixpoint {
+  text-align: center;
+}
+.fa-phone {
+  padding:20px;
+  font-size:25px;
+  color:#0CA881;
+  margin-left: 120px;
+}
+.fa-map-marker {
+  padding:20px;
+  font-size:25px;
+  color:#0CA881;
+}
+.fa-envelope-o {
+  padding:20px;
+  font-size:25px;
+  color:#0CA881;
+}
+#contact-button {
+  background-color: #0CA881;
+  border-color: #0CA881;
+  color: black;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: Optima, Arial, Helvetica, sans-serif;
+}
+#contact {
+  text-align: center;
+}
+li {
+  padding:25px; font-size:15px;
+}
+.col-sm-6 li a {
+    display:block;
+    margin-left: 120px;
+  }
