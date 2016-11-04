@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #f2f2f2;
+    background-color: white;
+    border-color: #ac9456;
     font-family: Palatino, Arial, Helvetica, sans-serif;
     position: fixed;
     display: none;
@@ -16,7 +17,7 @@
 .title-section {
     text-align: center;
     font-family: Palatino, Arial, Helvetica, sans-serif;
-    color: #008080;
+    color:#008080;
 }
 .text p {
     font-size: 25px;
@@ -28,7 +29,7 @@
 .row-footer {
     margin: 0px auto;
     padding: 20px 0px;
-    background-color: #f2f2f2;
+    background-color:  #f7f4ee;
     font-family: Palatino, Arial, Helvetica, sans-serif;
 }
 
@@ -101,4 +102,13 @@ a{
     font-style: italic;
     color: #008080;
 
+}
+.fa-envelope-o{
+    padding: 10px 0px 50px 0px;
+}
+.fa-phone{
+    padding-top: 10px;
+}
+#tapio{
+    border-bottom: 1px solid;
 }
