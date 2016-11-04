@@ -1,7 +1,9 @@
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 .navbar {
     background-color: white;
     border-color: #ac9456;
-    font-family: Palatino, Arial, Helvetica, sans-serif;
     position: fixed;
     display: none;
     height: 100px;
@@ -16,21 +18,18 @@
 }
 .title-section {
     text-align: center;
-    font-family: Palatino, Arial, Helvetica, sans-serif;
-    color:#008080;
+    color:#ac9456;
 }
 .text p {
-    font-size: 25px;
-    font-family: Palatino, Arial, Helvetica, sans-serif;
+    font-size: 20px;
     text-align: center;
     padding: 20px;
-    line-height: 25px;
+    line-height: 30px;
 }
 .row-footer {
     margin: 0px auto;
     padding: 20px 0px;
     background-color:  #f7f4ee;
-    font-family: Palatino, Arial, Helvetica, sans-serif;
 }
 
 #background {
@@ -68,7 +67,6 @@ li {
     height: 50%;
     vertical-align: middle;
     text-align: center;
-    font-family: Palatino, Arial, Helvetica, sans-serif;
     opacity: 1;
     z-index: 1;
 }
