@@ -16,11 +16,11 @@
 .title-section {
     text-align: center;
     font-family: Palatino, Arial, Helvetica, sans-serif;
-    color: #0CA881;
+    color: #008080;
 }
 .text p {
     font-size: 25px;
-    font-family: Optima, Arial, Helvetica, sans-serif;
+    font-family: Palatino, Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 20px;
     line-height: 25px;
@@ -34,19 +34,16 @@
 
 #background {
     margin-top: -20px;
-    background-image: url(flowers.jpg);
+    background-image: url(tropic.jpg);
     background-size: cover;
     height: 800px;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.9;
     z-index: -1;
 }
 #about {
     height: 1000px;
     padding: 80px 0px 30px 0px;
-}
-a {
-  color: #0CA881;
 }
 .row-modal {
   padding-top:30px;
@@ -68,9 +65,31 @@ li {
     left: 25%;
     width: 50%;
     height: 50%;
-    color: black;
+    color: white;
     vertical-align: middle;
     text-align: center;
+    font-family: Palatino, Arial, Helvetica, sans-serif;
     opacity: 1;
     z-index: 1;
+}
+#header-text h1{
+    font-size: 60px;
+}
+#header-text h2{
+    font-style: italic;
+    font-size: 40px;
+}
+
+.button-contact{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #ac9456;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color:#008080;
 }
