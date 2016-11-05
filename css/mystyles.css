@@ -1,65 +1,36 @@
 body{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+/*navbar*/
+
 .navbar {
     background-color: white;
     border-color: #ac9456;
-    position: fixed;
     display: none;
-    height: 100px;
-}
-.navbar li a {
-    height: 80px;
-    padding: 30px;
-}
-.navbar-brand {
-    height: 80px;
-    padding: 30px;
-}
-.title-section {
-    text-align: center;
-    color:#ac9456;
-}
-.text p {
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
-    line-height: 30px;
-}
-.row-footer {
-    margin: 0px auto;
-    padding: 20px 0px;
-    background-color:  #f7f4ee;
+    height: 7em;
+    position: fixed;
 }
 
+.navbar-default .navbar-brand{
+    font-size: 2.1em;
+    font-style: italic;
+    color: #008080;
+    padding: 1.2em;
+
+}
+/*header and image*/
+
 #background {
-    margin-top: -20px;
+    margin-top: -1.4em;
     background-image: url(tropic.jpg);
     background-size: cover;
-    height: 800px;
+    height: 57em;
     width: 100%;
     opacity: 0.9;
     z-index: -1;
 }
-#about {
-    height: 1000px;
-    padding: 80px 0px 30px 0px;
-}
-.row-modal {
-  padding-top:30px;
-}
-.row-dixpoint {
-  text-align: center;
-}
-li {
-  padding:25px; font-size:15px;
-}
-.col-sm-6 li a {
-    display:block;
-    margin-left: 120px;
-  }
 
-#header-text{
+#header{
     position: absolute;
     top: 25%;
     left: 25%;
@@ -70,24 +41,24 @@ li {
     opacity: 1;
     z-index: 1;
 }
-#header-text h1{
-    font-size: 60px;
+#header h1{
+    font-size: 4.2em;
     font-style: italic;
     color: #008080;
 
 }
-#header-text h2{
-    font-size: 40px;
+#header h2{
+    font-size: 2.8em;
     color: white;
     font-style: italic;
 }
 .button-contact{
-    width: 300px;
+    width: 17em;
     color: #008080;
-    height: 60px;
-    font-size: 20px;
+    height: 3em;
+    font-size: 1.4em;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 2em;
     border: 1px solid #ac9456;
 }
 a{
@@ -95,17 +66,40 @@ a{
     display: block;
     color:#ac9456;
 }
-.navbar-default .navbar-brand{
-    font-size: 30px;
-    font-style: italic;
-    color: #008080;
 
+/*text-content*/
+
+#about {
+    height: 71em;
+    padding: 5.7em 0em 2.1em 0em;
 }
+
+.title-section {
+    text-align: center;
+    color:#ac9456;
+}
+.text p {
+    font-size: 1.78em;
+    text-align: center;
+    padding: 0.8em;
+    line-height: 1.3em;
+}
+
+/*footer*/
+.row-footer {
+    padding: 1em 0em;
+    background-color:  #f7f4ee;
+}
+
+.row-dixpoint {
+  text-align: center;
+}
+
 .fa-envelope-o{
-    padding: 10px 0px 50px 0px;
+    padding: 0.7em 0em 3.5em 0em;
 }
 .fa-phone{
-    padding-top: 10px;
+    padding-top: 0.7em;
 }
 #tapio{
     border-bottom: 1px solid;
