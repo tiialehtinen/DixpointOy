@@ -12,59 +12,60 @@ body{
 }
 
 .navbar-default .navbar-brand{
+    color: #008080;
     font-size: 2.1em;
     font-style: italic;
-    color: #008080;
     padding: 1.2em;
 
 }
 /*header and image*/
 
 #background {
-    margin-top: -1.4em;
     background-image: url(tropic.jpg);
     background-size: cover;
     height: 57em;
-    width: 100%;
+    margin-top: -1.4em;
     opacity: 0.9;
+    width: 100%;
     z-index: -1;
 }
 
 #header{
+    height: 50%;
+    left: 25%;
     position: absolute;
     top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
     vertical-align: middle;
-    text-align: center;
+    width: 50%;
     opacity: 1;
+    text-align: center;
     z-index: 1;
 }
 #header h1{
+    color: #008080;
     font-size: 4.2em;
     font-style: italic;
-    color: #008080;
 
 }
 #header h2{
-    font-size: 2.8em;
     color: white;
+    font-size: 2.8em;
     font-style: italic;
 }
 .button-contact{
-    width: 17em;
-    color: #008080;
-    height: 3em;
-    font-size: 1.4em;
     background-color: white;
     border-radius: 2em;
     border: 1px solid #ac9456;
+    color: #008080;
+    font-size: 1.4em;
+    height: 3em;
+    width: 17em;
+
 }
 a{
-    text-decoration: none;
     display: block;
     color:#ac9456;
+    text-decoration: none;
 }
 
 /*text-content*/
@@ -75,20 +76,20 @@ a{
 }
 
 .title-section {
-    text-align: center;
     color:#ac9456;
+    text-align: center;
 }
 .text p {
     font-size: 1.78em;
-    text-align: center;
-    padding: 0.8em;
     line-height: 1.3em;
+    padding: 0.8em;
+    text-align: center;
 }
 
 /*footer*/
 .row-footer {
-    padding: 1em 0em;
     background-color:  #f7f4ee;
+    padding: 1em 0em;
 }
 
 .row-dixpoint {
